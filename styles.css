@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    background-color: #000000;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.151))
+}
+
+/* Car intro styles */
+.intro {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.intro img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Article styles */
+.car-details {
+    flex: 2;
+    padding: 20px;
+    color: white;
+}
+
+/* Specifications styles */
+.specs {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.specs h3 {
+    color: #e60000;
+    font-size: 20px;
+}
+
+.specs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.specs li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.buy-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #ff0000;
+}
+body {
+    background-color: #333;
+}
